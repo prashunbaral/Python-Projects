@@ -18,7 +18,7 @@ while True:
         print("Invalid mode. Enter a number")
 
 max_score = 50
-player_scores = [0 for _ in range(len(players))]
+player_scores = [0 for _ in range(players)]
 
 while max(player_scores) < max_score:
     for player_idx in range (players):
